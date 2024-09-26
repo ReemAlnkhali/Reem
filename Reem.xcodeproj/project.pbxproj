@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CA3094D2CA5382F00C0473F /* ReemApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA3094C2CA5382F00C0473F /* ReemApp.swift */; };
+		4CA3094F2CA5382F00C0473F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA3094E2CA5382F00C0473F /* ContentView.swift */; };
+		4CA309512CA5382F00C0473F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CA309502CA5382F00C0473F /* Assets.xcassets */; };
+		4CA309542CA5382F00C0473F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CA309532CA5382F00C0473F /* Preview Assets.xcassets */; };
+		4CA3095E2CA5382F00C0473F /* ReemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA3095D2CA5382F00C0473F /* ReemTests.swift */; };
+		4CA309682CA5382F00C0473F /* ReemUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA309672CA5382F00C0473F /* ReemUITests.swift */; };
+		4CA3096A2CA5382F00C0473F /* ReemUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA309692CA5382F00C0473F /* ReemUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4CA3095A2CA5382F00C0473F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CA309412CA5382F00C0473F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CA309482CA5382F00C0473F;
+			remoteInfo = Reem;
+		};
+		4CA309642CA5382F00C0473F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CA309412CA5382F00C0473F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CA309482CA5382F00C0473F;
+			remoteInfo = Reem;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4CA309492CA5382F00C0473F /* Reem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reem.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CA3094C2CA5382F00C0473F /* ReemApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReemApp.swift; sourceTree = "<group>"; };
+		4CA3094E2CA5382F00C0473F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4CA309502CA5382F00C0473F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4CA309532CA5382F00C0473F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4CA309592CA5382F00C0473F /* ReemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReemTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CA3095D2CA5382F00C0473F /* ReemTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReemTests.swift; sourceTree = "<group>"; };
+		4CA309632CA5382F00C0473F /* ReemUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReemUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CA309672CA5382F00C0473F /* ReemUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReemUITests.swift; sourceTree = "<group>"; };
+		4CA309692CA5382F00C0473F /* ReemUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReemUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CA309462CA5382F00C0473F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CA309562CA5382F00C0473F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CA309602CA5382F00C0473F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CA309402CA5382F00C0473F = {
+			isa = PBXGroup;
+			children = (
+				4CA3094B2CA5382F00C0473F /* Reem */,
+				4CA3095C2CA5382F00C0473F /* ReemTests */,
+				4CA309662CA5382F00C0473F /* ReemUITests */,
+				4CA3094A2CA5382F00C0473F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4CA3094A2CA5382F00C0473F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CA309492CA5382F00C0473F /* Reem.app */,
+				4CA309592CA5382F00C0473F /* ReemTests.xctest */,
+				4CA309632CA5382F00C0473F /* ReemUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CA3094B2CA5382F00C0473F /* Reem */ = {
+			isa = PBXGroup;
+			children = (
+				4CA3094C2CA5382F00C0473F /* ReemApp.swift */,
+				4CA3094E2CA5382F00C0473F /* ContentView.swift */,
+				4CA309762CA544EB00C0473F /* New Group */,
+				4CA309502CA5382F00C0473F /* Assets.xcassets */,
+				4CA309522CA5382F00C0473F /* Preview Content */,
+			);
+			path = Reem;
+			sourceTree = "<group>";
+		};
+		4CA309522CA5382F00C0473F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4CA309532CA5382F00C0473F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4CA3095C2CA5382F00C0473F /* ReemTests */ = {
+			isa = PBXGroup;
+			children = (
+				4CA3095D2CA5382F00C0473F /* ReemTests.swift */,
+			);
+			path = ReemTests;
+			sourceTree = "<group>";
+		};
+		4CA309662CA5382F00C0473F /* ReemUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4CA309672CA5382F00C0473F /* ReemUITests.swift */,
+				4CA309692CA5382F00C0473F /* ReemUITestsLaunchTests.swift */,
+			);
+			path = ReemUITests;
+			sourceTree = "<group>";
+		};
+		4CA309762CA544EB00C0473F /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CA309482CA5382F00C0473F /* Reem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CA3096D2CA5382F00C0473F /* Build configuration list for PBXNativeTarget "Reem" */;
+			buildPhases = (
+				4CA309452CA5382F00C0473F /* Sources */,
+				4CA309462CA5382F00C0473F /* Frameworks */,
+				4CA309472CA5382F00C0473F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Reem;
+			productName = Reem;
+			productReference = 4CA309492CA5382F00C0473F /* Reem.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4CA309582CA5382F00C0473F /* ReemTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CA309702CA5382F00C0473F /* Build configuration list for PBXNativeTarget "ReemTests" */;
+			buildPhases = (
+				4CA309552CA5382F00C0473F /* Sources */,
+				4CA309562CA5382F00C0473F /* Frameworks */,
+				4CA309572CA5382F00C0473F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CA3095B2CA5382F00C0473F /* PBXTargetDependency */,
+			);
+			name = ReemTests;
+			productName = ReemTests;
+			productReference = 4CA309592CA5382F00C0473F /* ReemTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4CA309622CA5382F00C0473F /* ReemUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CA309732CA5382F00C0473F /* Build configuration list for PBXNativeTarget "ReemUITests" */;
+			buildPhases = (
+				4CA3095F2CA5382F00C0473F /* Sources */,
+				4CA309602CA5382F00C0473F /* Frameworks */,
+				4CA309612CA5382F00C0473F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CA309652CA5382F00C0473F /* PBXTargetDependency */,
+			);
+			name = ReemUITests;
+			productName = ReemUITests;
+			productReference = 4CA309632CA5382F00C0473F /* ReemUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CA309412CA5382F00C0473F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					4CA309482CA5382F00C0473F = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					4CA309582CA5382F00C0473F = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 4CA309482CA5382F00C0473F;
+					};
+					4CA309622CA5382F00C0473F = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 4CA309482CA5382F00C0473F;
+					};
+				};
+			};
+			buildConfigurationList = 4CA309442CA5382F00C0473F /* Build configuration list for PBXProject "Reem" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4CA309402CA5382F00C0473F;
+			productRefGroup = 4CA3094A2CA5382F00C0473F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CA309482CA5382F00C0473F /* Reem */,
+				4CA309582CA5382F00C0473F /* ReemTests */,
+				4CA309622CA5382F00C0473F /* ReemUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CA309472CA5382F00C0473F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CA309542CA5382F00C0473F /* Preview Assets.xcassets in Resources */,
+				4CA309512CA5382F00C0473F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CA309572CA5382F00C0473F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CA309612CA5382F00C0473F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CA309452CA5382F00C0473F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CA3094F2CA5382F00C0473F /* ContentView.swift in Sources */,
+				4CA3094D2CA5382F00C0473F /* ReemApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CA309552CA5382F00C0473F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CA3095E2CA5382F00C0473F /* ReemTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CA3095F2CA5382F00C0473F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CA309682CA5382F00C0473F /* ReemUITests.swift in Sources */,
+				4CA3096A2CA5382F00C0473F /* ReemUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4CA3095B2CA5382F00C0473F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CA309482CA5382F00C0473F /* Reem */;
+			targetProxy = 4CA3095A2CA5382F00C0473F /* PBXContainerItemProxy */;
+		};
+		4CA309652CA5382F00C0473F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CA309482CA5382F00C0473F /* Reem */;
+			targetProxy = 4CA309642CA5382F00C0473F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4CA3096B2CA5382F00C0473F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4CA3096C2CA5382F00C0473F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CA3096E2CA5382F00C0473F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Reem/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com..Reem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4CA3096F2CA5382F00C0473F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Reem/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com..Reem;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4CA309712CA5382F00C0473F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com..ReemTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Reem.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Reem";
+			};
+			name = Debug;
+		};
+		4CA309722CA5382F00C0473F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com..ReemTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Reem.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Reem";
+			};
+			name = Release;
+		};
+		4CA309742CA5382F00C0473F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com..ReemUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Reem;
+			};
+			name = Debug;
+		};
+		4CA309752CA5382F00C0473F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com..ReemUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Reem;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CA309442CA5382F00C0473F /* Build configuration list for PBXProject "Reem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CA3096B2CA5382F00C0473F /* Debug */,
+				4CA3096C2CA5382F00C0473F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CA3096D2CA5382F00C0473F /* Build configuration list for PBXNativeTarget "Reem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CA3096E2CA5382F00C0473F /* Debug */,
+				4CA3096F2CA5382F00C0473F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CA309702CA5382F00C0473F /* Build configuration list for PBXNativeTarget "ReemTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CA309712CA5382F00C0473F /* Debug */,
+				4CA309722CA5382F00C0473F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CA309732CA5382F00C0473F /* Build configuration list for PBXNativeTarget "ReemUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CA309742CA5382F00C0473F /* Debug */,
+				4CA309752CA5382F00C0473F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CA309412CA5382F00C0473F /* Project object */;
+}
